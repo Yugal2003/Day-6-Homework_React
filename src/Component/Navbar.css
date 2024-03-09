@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar_flex{
+    justify-content: space-around;
+    padding-block: 18px;
+    display: flex;
+    color: white;
+    background-color: #645CFF;
+}
+#h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.bazaar{
+    padding-block: 5px;
+    display: flex;
+}

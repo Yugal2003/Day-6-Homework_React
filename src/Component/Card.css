@@ -1,0 +1,88 @@
+.All_products{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px solid rgb(242, 234, 234); */
+}
+body{
+    background-color: rgb(149, 255, 0);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one_produce_remover_btn{
+    cursor: pointer;
+    padding: 0.2rem;
+    padding-right: 3.5rem;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid rgb(224, 227, 224);
+}
+.one_produce_remover_btn:hover{
+    background-color: rgb(231, 226, 226);
+}
+.h3{
+    display: block;
+}
+.is_empty{
+    margin-block: 2rem;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+}
+.one_produce_remover_btn{
+    width: 50px;
+}
+.plus_quantity_minus{
+    display: flex;
+    flex-direction: column;
+}
+.three_btn{
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    padding: 0.3rem;
+    font-weight: bold;
+}
+.three_btn:hover{
+    background-color: rgb(205, 201, 201);
+    cursor: pointer;
+}
+.total_plus_clear{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.totals{
+    font-size: 30px;
+}
+.total_flex{
+    margin: 0.5rem 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20rem;
+}
+.total_plus_clear button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.total_plus_clear button:hover{
+    background-color: rgb(210, 203, 203);
+}
